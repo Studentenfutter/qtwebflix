@@ -1,8 +1,6 @@
-# qtwebflix
-A qt webengine program to watch Netflix
-
-<b>Now available in the AUR</b>
-<html>https://aur.archlinux.org/packages/qtwebflix-git/</html>
+# qtagantty
+A qt webengine program to use the project-management tool agantty (app.agantty.com)
+Forked from <html><a href="https://github.com/gort818/qtwebflix">gort818/qtwebflix</a></html>
 
 <b>Requirements-</b> qt5,qtwebegine(with proprietary codecs)
 
@@ -27,14 +25,6 @@ Instructions:
   6. Type qmake -config release
   7. Type make
   8. Binary will be labeled netflix
-  9. Enjoy a standalone netflix player :) f11 for fullscreen and crtl + q to quit
+  9. Enjoy a standalone agantty app. f11 for fullscreen and crtl + q to quit
   
-Note:
-If you receiving an error loading netflix try
-
-
-       netflix --register-pepper-plugins="/usr/lib/qt/plugins/ppapi/libwidevinecdmadapter.so; application/x-ppapi-widevine-cdm"
-    
-    
-![alt text](https://i.imgur.com/6pkLVsr.png)    
 
