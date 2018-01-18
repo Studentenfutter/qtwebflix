@@ -6,12 +6,12 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>466</width>
-    <height>400</height>
+    <width>800</width>
+    <height>600</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Netflix</string>
+   <string>Agantty</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <property name="minimumSize">

@@ -8,12 +8,12 @@ MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
-    appSettings = new QSettings("Qtwebflix","Save State", this);
+    appSettings = new QSettings("Qtagantty","Save State", this);
     ui->setupUi(this);
     readSettings();
     webview = new QWebEngineView;
     ui->horizontalLayout->addWidget(webview);
-    webview->setUrl(QUrl(QStringLiteral("http://netflix.com")));
+    webview->setUrl(QUrl(QStringLiteral("https://app.agantty.com")));
     keyF11 = new QShortcut(this);   // Initialize the object
     keyF11->setKey(Qt::Key_F11);    // Set the key code
     // connect handler to keypress
